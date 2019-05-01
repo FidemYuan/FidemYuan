@@ -43,6 +43,7 @@ author: fidemyuan
 
 
 如下代码：
+
 	public class test {                         //1.第一步，准备加载类
 	
 	    public static void main(String[] args) {
@@ -166,8 +167,10 @@ author: fidemyuan
 	    这里是子类的构造方法
 	    这里是子类的普通方法
 			`
+
 ## 两个例子
 	
+
 	` public class ClassloadSort1 {
 	
 	        public static void main(String[] args) {
