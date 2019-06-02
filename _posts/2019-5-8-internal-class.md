@@ -104,3 +104,47 @@ author: fidemyuan
 	}`
 
 局部内部类就像是方法里面的一个局部变量一样，是不能有public、protected、private以及static修饰符的。
+
+### 匿名内部类
+
+没有名字的内部类，主要为了简化类的书写
+	
+	`scan_bt.setOnClickListener(new OnClickListener() {
+	             
+	            @Override
+	            public void onClick(View v) {
+	                // TODO Auto-generated method stub
+	                 
+	            }
+	        });
+	         
+	        history_bt.setOnClickListener(new OnClickListener() {
+	             
+	            @Override
+	            public void onClick(View v) {
+	                // TODO Auto-generated method stub
+	                 
+	            }
+	        });`
+
+### 静态内部类
+
+定义在类中的一个类，用Static修饰
+
+	`public class Test {
+	    public static void main(String[] args)  {
+	        Outter.Inner inner = new Outter.Inner();
+	    }
+	}
+	 
+	class Outter {
+	    public Outter() {
+	         
+	    }
+	     
+	    static class Inner {
+	        public Inner() {
+	             
+	        }
+	    }
+	}`
