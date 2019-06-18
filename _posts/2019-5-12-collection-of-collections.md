@@ -11,7 +11,7 @@ author: fidemyuan
 ![](https://github.com/fidemyuan/fidemyuan.github.io/blob/master/img-folder/Conllection.png)
 
 
-##Conllection与Map
+## Conllection与Map
 
 Collection是最基本的集合接口，声明了适用于JAVA集合（只包括Set和List）的通用方法。 Set 和List 都继承了Conllection；Set具有与Collection完全一样的接口，因此没有任何额外的功能，不像前面有两个不同的List。实际上Set就是Collection,只 是行为不同。(这是继承与多态思想的典型应用：表现不同的行为。)Set不保存重复的元素(至于如何判断元素相同则较为负责) 
 
